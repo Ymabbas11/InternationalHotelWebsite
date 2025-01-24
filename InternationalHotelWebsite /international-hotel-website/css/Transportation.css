@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(image/vaught-commercial-transportation-and-property-insurance-airport-shuttles-insurance.jpg);
+}
+
+.banner-text{
+	text-align: center;
+	color: white;
+	padding-top: 180px;
+}
+
+.banner-text h1{
+	font-size: 130px;
+}
+
+.table{
+	width: 100%;
+	border-collapse: collapse;
+	padding-bottom: 50px;
+}
+
+.table td, .table th{
+	padding: 10px;
+	border: 1px solid white;
+	text-align: center;
+	font-size: 16px;
+	
+}
+.table th{
+	background-color:#5B5B5B;
+	color: white;
+}
+
+.map{
+	object-position: center; 
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+
+.transpot_section{
+	min-height: 80vh;
+	background-color: #ddd;
+	width:90%;
+	display: block;
+	margin: auto;
+}
+
+.transpot{
+	background: #ddd;
+	flex-wrap: wrap;
+	padding-top: 20px;
+}
+
+@media (max-width: 768px){
+	.map{
+		display:inline-flex;
+	}
+	.banner	.banner-text h1{
+		font-size: 35px;
+	}
+
+	
+}

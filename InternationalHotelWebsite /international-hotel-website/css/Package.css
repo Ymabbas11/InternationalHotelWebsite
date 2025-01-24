@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+.packages{
+	padding: 0rem 8%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+	background-size: cover;
+	background-position: center;
+}
+.packages .box-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;	
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+
+.packages .box-container .box{
+	flex: 1 1 30rem;
+	overflow:hidden;
+	box-shadow: 1rem 1rem 1rem rgba(0,0,0,.1);
+	background-color: white;
+	border-radius: 3px;
+}
+
+.packages .box-container .box img{
+  height: 17rem;
+  width:100%;
+  object-fit: cover;
+} 
+
+.packages .box-container .box .content{
+	padding: 1rem;
+}
+
+.packages .box-container .box .content h3{
+  color:#333333;
+}
+
+.packages .box-container .box .content p{
+  color:#666666;
+  padding:0.5rem 0;
+}
+
+
+.packages .box-container .box .content .price{
+  color:#333333;
+}

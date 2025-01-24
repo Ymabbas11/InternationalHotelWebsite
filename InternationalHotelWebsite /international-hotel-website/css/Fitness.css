@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+.rest{
+	background: #ddd;
+	flex-wrap: wrap;
+}
+
+.rest-section{
+	min-height: 60vh;
+	background-color: #ddd;
+	width:80%;
+	display: block;
+	margin: auto;
+	padding-top: 50px;
+}
+.inner-rest{
+	float: left;
+	width: 55%;
+}
+.img{
+	float: left;
+	width: 40%;
+}
+
+.img img{
+	width: 100%;
+	height: auto;
+}
+
+.Time{
+	float: right;
+	width: 40%;
+	padding-left: 180px;
+	
+}
+.title h1{
+	font-size: 50px;
+}
+
+@media (max-width: 768px){
+	.Time{
+		display: contents;
+	}
+	.banner .banner-text h1{
+		font-size: 65px;
+	}
+	.title h1{
+		font-size: 20px;
+	}
+	p{
+		font-size: 10px;
+	}
+	
+}
+
+
+
+
+
+
+.banner{
+	background-size: cover;
+	background-position: center;
+	height: 40vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(image/Best-hotel-gyms-Hotel-X-Toronto.png);
+}
+
+.banner-text{
+	text-align: center;
+	color: white;
+	padding-top: 180px;
+}
+
+.banner-text h1{
+	font-size: 130px;
+}
+
+.img{
+	width: 70%;
+	height: auto;
+	padding-top: 30px;
+}

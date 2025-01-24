@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(image/388552_porterhouse-steak_1x1.jpg);
+}
+
+.banner-text{
+	text-align: center;
+	color: white;
+	padding-top: 300px;
+}
+
+.banner-text h1{
+	font-size: 130px;
+}
+.title h1{
+	font-size: 70px;
+}
+.Time{
+	padding-top: 20px;
+}
+
+.book-section{
+	padding: 0rem 4%;
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.inner-book {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	border-radius: 4px;
+	padding-top: 50px;
+}
+
+.inner-book input{
+	padding: 1rem 2rem;
+	margin: 0.5rem 0;
+	border-radius: 4px;
+	gap: 20px;
+}
+
+.book-btn{
+	padding: 0.7rem 1rem;
+	background: #AF0000;
+	border-radius: 4px;
+	padding-right: 10px;
+}
+
+.book-btn a{
+	color: white;
+	font-size: 1.5rem;
+	padding-right: 10px;
+}
+
+#people{
+	padding: 1.12rem 2rem;
+}
+
+.rest{
+	background: #ddd;
+	flex-wrap: wrap;
+}
+
+.rest-section{
+	min-height: 60vh;
+	background-color: #ddd;
+	width:80%;
+	display: block;
+	margin: auto;
+	padding-top: 70px;
+}
+.inner-rest{
+	float: left;
+	width: 55%;
+}
+.img{
+	float: right;
+	width: 40%;
+}
+
+.img img{
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 768px){
+	.banner-text h1{
+		font-size: 65px;
+	}
+	.inner-book input{
+		padding: 4px 8px;
+		margin: 0.5rem 0;
+		border-radius: 4px;
+		gap: 4px;
+	}
+	#people{
+		padding: 6px 2px;
+	}
+	.book-btn{
+		padding: 1px 2px;
+		padding-right: 10px;
+	}
+	.banner-text h1{
+		font-size: 50px;
+	}
+	.title h1{
+		font-size: 35px;
+	}
+	p{
+		font-size: 10px;
+	}
+	.Time h1{
+		font-size: 15px;
+	}
+	
+	
+}

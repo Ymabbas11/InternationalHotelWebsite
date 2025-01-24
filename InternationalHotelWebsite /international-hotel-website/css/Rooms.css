@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+.banner{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+	background-size: cover;
+	background-position: center;
+}
+/* booking section */
+.book-section{
+	padding: 0rem 8%;
+	height: 24.5vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.inner-book {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	border-radius: 4px;
+	padding-top: 50px;
+}
+
+.inner-book input{
+	padding: 1rem 2rem;
+	margin: 0.5rem 1px;
+	border-radius: 4px;
+	gap: 20px;
+}
+#departure-date{
+	padding: 0.85rem 2rem;
+}
+#arrival-date{
+	padding: 0.85rem 2rem;
+}
+
+.book-btn{
+	padding: 0.7rem 1rem;
+	background: #AF0000;
+	border-radius: 4px;
+	padding-right: 10px;
+}
+
+.book-btn a{
+	color: white;
+	font-size: 1.5rem;
+	padding-right: 10px;
+}
+
+
+
+/* type of rooms */
+
+.our-rooms{
+	padding: 2rem 7%;
+	flex-wrap:wrap;
+	border-radius: 2px;
+}
+
+.our-rooms h1{
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+
+.inner-rooms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.inner-rooms .room-box{
+    flex: 2 2;
+}
+
+.inner-rooms .room-box img{
+    width: 100%;
+	border-radius: 3px;
+}
+
+.inner-rooms .room-box .beds{
+    justify-content: space-between;
+    padding: 1rem 4rem;
+	text-align: center;
+}
+
+.inner-rooms .room-box .beds span{
+    font-size: 25px;
+	color: white;
+	
+}
+
+@media (max-width: 768px){
+	.book-section{
+		padding-right: 3%;
+		height: 40vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-top: 10rem;
+	}
+	.inner-book input{
+		padding: 6px 4px;
+		margin: 0.5rem 1px;
+		border-radius: 4px;
+		gap: 1px;
+	}
+	#departure-date{
+		padding: 4px 1px;
+	}
+	#arrival-date{
+		padding: 4px 1px;
+	}
+	.book-btn{
+		padding: 1px 1px;
+	}
+	.our-rooms h1{
+		text-align: center;
+		font-size: 25px;
+	}
+	.inner-rooms .room-box .beds span{
+    	font-size: 15px;
+	}
+	.inner-book{
+		padding-bottom: 100px;
+	}
+	
+}
+
+@media (min-width: 1440px){
+	.inner-rooms .room-box{
+    flex: 2 2;
+		
+	}
+}
+
+
+

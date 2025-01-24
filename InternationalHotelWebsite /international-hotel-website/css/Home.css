@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.banner-text{
+	text-align: center;
+	color: white;
+	padding-top: 350px;
+}
+
+.banner-text h1{
+	font-size: 130px;
+}
+
+.banner-btn{
+	margin: 70px auto 0;
+}
+
+.banner-btn a{
+	width: 250px;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 12px 0;
+	color: white;
+	border: 1px solid #FFFFFF;
+	
+}
+.banner{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(image/430e7cf8-41f8-4ef8-b3af-33a6dd96937b.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+@media (max-width: 768px){
+	.banner-text h1{
+		font-size: 65px;
+	}
+	
+}
