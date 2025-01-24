@@ -93,6 +93,3 @@ Contains the main HTML files for the website:
 
 ---
 
-## License
-This project is for educational or personal use. Permissions and licenses for included images must be verified separately.
-
